@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Mybook | Log in</title>
+	<title>Mybook | Sign up</title>
 	<style type="text/css">
 		#bar{
 			height: 100px;
@@ -9,7 +9,7 @@
 			padding: 4px;
 		}
 
-		#signup_button{
+		#login_button{
 			background-color: #42b72a;
 			width: 70px;
 			text-align:center;
@@ -22,11 +22,12 @@
 		#bar2{
 			background-color: white; 
 			width:800px; 
-			height: 270px; 
+			height: auto; 
 			margin: auto;
 			margin-top: 50px;
 			padding: 10px;
 			padding-top: 50px;
+			padding-bottom: 30px;
 			text-align: center;
 			font-weight: bold;
 		}
@@ -61,14 +62,25 @@
 		<div style="font-size: 40px; 
 			width: 170px;
 			float: left;">Mybook</div> 
-		<div id="signup_button">Signup</div>
+		<div id="login_button">Log in</div>
 	</div>
 
 	<div id='bar2' style="">
-		Log in to Mybook<br><br>
+		Sign up to Mybook<br><br>
+		
+		<input type="text" class="text" placeholder="First name"><br><br>
+		<input type="text" class="text" placeholder="Last name"><br><br>
+		<span style="font-weight: normal;">Gender:</span><br>
+		<select class="text">
+			<option>Male</option>
+			<option>Female</option>
+			<option>Other</option>
+		</select>
+		<br><br>
 		<input type="text" class="text" placeholder="Email"><br><br>
 		<input type="password" class="text" placeholder="Password"><br><br>
-		<input type="submit" id="button" value="Log in">
+		<input type="password" class="text" placeholder="Confirm password"><br><br>
+		<input type="submit" id="button" value="Sign up">
 
 	</div>
 </body>
